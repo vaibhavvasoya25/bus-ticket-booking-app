@@ -1,0 +1,164 @@
+$myWhite: #fff;
+$myGray: gray;
+$borderGray: rgb(200, 194, 194);
+$lightGray: rgb(236, 236, 236);
+$myBlack: #000;
+$baseMargin: 50px;
+
+.App {
+  text-align: center;
+}
+
+.nav {
+  text-decoration: none;
+  color: $myBlack;
+  font-size: large;
+}
+
+.instruction {
+  color: $myWhite;
+  background-color: rgb(247, 89, 89);
+  margin: 5px;
+  padding: 2px 40px;
+  font-size: large;
+}
+
+.body {
+  margin: 30px auto;
+  width: 1000px;
+}
+
+.lower-deck {
+  margin: 15px auto;
+  width: 800px;
+}
+.header {
+  color: $myGray;
+  font-weight: 400;
+}
+
+.lower-deck-container {
+  border: 1px solid $borderGray;
+  border-left: 15px solid $myGray;
+  margin: 10px auto;
+  height: 300px;
+  width: 700px;
+  background-color: $lightGray;
+  display: flex;
+}
+
+.upper-deck {
+  margin: 20px auto;
+  width: 800px;
+}
+
+.upper-deck-container {
+  border: 1px solid $borderGray;
+  border-left: 15px solid $myGray;
+  margin: 10px auto;
+  height: 300px;
+  width: 700px;
+  background-color: $lightGray;
+  display: flex;
+}
+
+.main-seat-container {
+  background-color: $lightGray;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 240px;
+  width: 85%;
+}
+
+.last-container {
+  background-color: $lightGray;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 240px;
+  width: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-comp {
+  width: 80px;
+  height: 40px;
+  background-color: $myWhite;
+  border: 1px solid $myGray;
+  border-radius: 3px;
+  margin: 15px 8px;
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sofa-comp {
+  width: 40px;
+  height: 90px;
+  background-color: $myWhite;
+  border: 1px solid $myGray;
+  border-radius: 3px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pillow {
+  height: 25px;
+  width: 15px;
+  border: 1px solid $myGray;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: $myWhite;
+}
+
+.sofa-pillow {
+  height: 45px;
+  width: 15px;
+  border: 1px solid $myGray;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: $myWhite;
+}
+
+.last-content {
+  border: 1px solid $myGray;
+  height: 30px;
+  width: $baseMargin;
+}
+
+.list-wrapper {
+  margin: auto;
+  width: 70%;
+  margin-top: $baseMargin;
+}
+
+.search-bus-wrapper {
+  margin: auto;
+  width: 30%;
+  margin-top: $baseMargin;
+}
+
+.pagination-wrapper {
+  margin-top: $baseMargin;
+  width: 100%;
+}
+
+.allocate-seat-wrapper {
+  margin: $baseMargin auto;
+  width: 23%;
+}
+
+.bus-reservation {
+  margin-top: $baseMargin;
+}
+
+.bus-allocation {
+  margin-top: $baseMargin;
+}
